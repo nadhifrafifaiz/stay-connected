@@ -1,0 +1,84 @@
+html, body, h3,input,button,h1 {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    background-image: url("https://images.pexels.com/photos/5829180/pexels-photo-5829180.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  }
+  
+  #root {
+    height: 100vh;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .joinOuterContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    align-items: center;
+  }
+  
+  .joinInnerContainer {
+    width: 30%;
+  }
+  
+  .joinInput {
+    font-family: 'Montserrat';
+    /* border-radius: 10px; */
+    padding: 15px 20px;
+    width: 100%;
+  }
+  
+  .heading {
+    color:#2979;
+    font-size: 2.5em;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #2b2b2b;
+  }
+  
+  .button {
+    font-family: 'Montserrat';
+      color: #fff !important;
+      text-transform: uppercase;
+      text-decoration: none;
+      background: #2979;
+      padding: 20px;
+      /* border-radius: 10px; */
+      display: inline-block;
+      border: none;
+      width: 100%;
+      transition: 0.3s;
+  }
+  .button:hover{
+      color: #2979 !important;
+      background: #fff;
+      border: 1px solid #2b2b2b;
+  }
+  
+  .mt-20 {
+    margin-top: 20px;
+  }
+
+
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .joinOuterContainer {
+      height: 100%;
+    }
+  
+    .joinInnerContainer {
+      width: 80%;
+    }
+  
+  
+  }
+  
+  button:focus {
+    outline: 0;
+  }
